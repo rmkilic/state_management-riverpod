@@ -1,16 +1,13 @@
 # state_management_riverpod
 
-A new Flutter project.
+State management using Riverpod
 
-## Getting Started
+In order to see the state management difference, it starts with the counter application provided by flutter.
+(Check Debug Console)
+----
 
-This project is a starting point for a Flutter application.
+Riverpod Kullanarak State Yönetimi
 
-A few resources to get you started if this is your first Flutter project:
+State yönetimi farkını görebilmek için Flutter tarafından sağlanan sayaç uygulaması ile başlamaktadır.
+(Debug Konsolda çıktıları görebilirsiniz)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
