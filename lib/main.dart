@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:state_management_riverpod/counter/feature/counter_basic.dart';
 import 'package:state_management_riverpod/counter/feature/counter_view.dart';
+import 'package:state_management_riverpod/main_menu.dart';
 
 void main() {
   runApp(const ProviderScope(child: MyApp()));
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MainMenuView()
     );
   }
 }
